@@ -15,4 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-10-26-56-111.aws98.cloud.tiaa-cref.org-releases</name>
+        <url>http://ec2-54-167-225-252.compute-1.amazonaws.com:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 </project>
